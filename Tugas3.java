@@ -9,8 +9,6 @@ public class Tugas3 {
         for (int i = 0; i < menu.length; i++) {
             if (makanan.equalsIgnoreCase(menu[i])) {
                 ada = true;
-            } else {
-                ada = false;
             }
         }
         if (ada) {
